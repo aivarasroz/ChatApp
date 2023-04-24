@@ -1,4 +1,4 @@
-# ReactJs-NodeJs Chatapp
+# ReactJs-NodeJs ChatApp
 
 Final project of chatting application made with React and Node.js
 
@@ -11,7 +11,7 @@ The app is running from client and server side which requires further optimizati
 
 ## Frontend 
 
-When client folder is opened in order to install necessary libraries, perfom installation inside `./Frontend` folder's terminal:
+When client folder is opened in order to install necessary libraries, perfom installation inside `./frontend` folder's terminal:
 
 ```
 npm install
@@ -20,7 +20,7 @@ npm install
 
 ## Backend
 
-Step above is repeated only inside `./Backend` folder's terminal:
+Step above is repeated only inside `./backend` folder's terminal:
 
 ```
 npm install
@@ -33,12 +33,12 @@ libraries described in `package.json` are installed during these steps.
 
 
 Server is running with MongoDB (non-SQL) database.
-To Launch an application first step is to run `./Backend` end first: 
+To Launch an application first step is to run `./backend` first: 
 
 ```
 npm start
 ```
-Once it has been launched with all your initial database, `./Frontend` end must be launched to start the application on web.
+Once it has been launched with all your initial database, `./frontend` must be launched to start the application on web.
 
 ```
 npm start
