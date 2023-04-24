@@ -1,0 +1,102 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://th.bing.com/th/id/R.e8c3c65956ffc4efabc89727c27ce13d?rik=H2DMqKwWAL65HQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fix6TBBO.jpg&ehk=cZtBWE6oKJK7LArbPQCnOjQteZzPTz45yK4hqgiGTws%3d&risl=&pid=ImgRaw&r=0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-cont {
+  padding-bottom: 100px;
+}
+
+
+
+.home-button {
+  background-color: #ffffff;
+  color: #2b7f55;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background-color: #fff;
+  color: #248855;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  background-color: #197f49d9;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #206c44;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #197f49;
+}
+p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+input {
+  background-color: #fbfbfb3c;
+}

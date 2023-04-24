@@ -1,0 +1,64 @@
+.register-container {
+  display: flex;
+  flex-direction: column; /* change the direction to column */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://th.bing.com/th/id/R.e8c3c65956ffc4efabc89727c27ce13d?rik=H2DMqKwWAL65HQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fix6TBBO.jpg&ehk=cZtBWE6oKJK7LArbPQCnOjQteZzPTz45yK4hqgiGTws%3d&risl=&pid=ImgRaw&r=0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-card {
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin: 0;
+  color: #227249;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+input {
+  background-color: #9e9fa13c;
+}
+
+button[type="submit"] {
+  background-color: #227249;
+  color: #fcfcfc;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #6c6c6c;
+}
+
+p {
+  color: green;
+}
+
+.errors{
+  color: red;
+}

@@ -1,0 +1,75 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.user-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex: 1;
+  background-image: url("https://th.bing.com/th/id/R.e8c3c65956ffc4efabc89727c27ce13d?rik=H2DMqKwWAL65HQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fix6TBBO.jpg&ehk=cZtBWE6oKJK7LArbPQCnOjQteZzPTz45yK4hqgiGTws%3d&risl=&pid=ImgRaw&r=0");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-container {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.home-but {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.home-button:hover {
+  background-color: rgb(143, 143, 143);
+  color: white;
+}
+
+.taskbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 50px;
+  padding: 10px;
+}
+
+.taskbar__left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.taskbar__left img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.username {
+  color: black;
+  font-size: 20px;
+}
+
+.taskbar__right {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.but {
+  background-color: green;
+}

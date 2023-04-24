@@ -1,0 +1,45 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://th.bing.com/th/id/R.e8c3c65956ffc4efabc89727c27ce13d?rik=H2DMqKwWAL65HQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fix6TBBO.jpg&ehk=cZtBWE6oKJK7LArbPQCnOjQteZzPTz45yK4hqgiGTws%3d&risl=&pid=ImgRaw&r=0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 300px;
+  margin-top: 20px;
+  gap: 300px;
+}
+
+.login-button,
+.register-button {
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #2da44dd7;
+  color: rgba(255, 255, 255, 0.944);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: #bebebe;
+  color: #2da44dd7;
+}
+
+img {
+  height: 300px;
+}

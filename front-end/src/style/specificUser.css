@@ -1,0 +1,36 @@
+.proffile {
+  background-image: url("https://th.bing.com/th/id/R.e8c3c65956ffc4efabc89727c27ce13d?rik=H2DMqKwWAL65HQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fix6TBBO.jpg&ehk=cZtBWE6oKJK7LArbPQCnOjQteZzPTz45yK4hqgiGTws%3d&risl=&pid=ImgRaw&r=0");
+  height: 960px;
+}
+
+.profile-card {
+  background-color: rgb(219, 219, 219);
+  height: 500px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile-card p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.profile-but {
+  padding: 10px;
+  font-size: 30px;
+}

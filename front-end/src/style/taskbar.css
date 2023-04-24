@@ -1,0 +1,36 @@
+.taskbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #498256;
+  height: 50px;
+  padding: 10px;
+}
+
+.taskbar__left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.taskbar__left img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.username {
+  color: black;
+  font-size: 20px;
+}
+
+.taskbar__right {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.but {
+  background-color: rgb(232, 236, 232);
+}
